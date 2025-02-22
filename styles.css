@@ -1,5 +1,9 @@
 /* this affects the entire header (including nav bar, heading name, etc) */
-header {
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header_one {
     display: flex;
     justify-content: center;
 }
@@ -9,7 +13,7 @@ header {
     display: flex;
     padding: 20px;
     justify-content: flex-start;
-    margin-right: 600px;
+    margin-right: 400px;
 
     font-size: 40px;
 }
@@ -24,14 +28,60 @@ header {
 }
 
 /* affects the links individually*/
-a {
+.nav_bar a {
     display: flex;
     padding: 20px;
     stroke-width: 2px;
+    border: 2px solid black;
     border-radius: 20px;
     justify-content: space-evenly;
-
-    background-color: rgb(211, 203, 203);
+    margin: 5px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
 }
+
+section.second_layer {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 100px;
+    align-items: center;
+}
+
+img.pfp {
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 100px;
+    padding: 5px;
+    width: 150px;
+}
+
+.about_me {
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 75px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.header_two {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size: 25px;
+    border-radius: 400px;
+}
+
+.project_titles {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 40px;
+    font-size: 26px;
+}
+
