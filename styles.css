@@ -1,0 +1,37 @@
+/* this affects the entire header (including nav bar, heading name, etc) */
+header {
+    display: flex;
+    justify-content: center;
+}
+
+/* this affects the heading name */
+.heading_name {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    margin-right: 600px;
+
+    font-size: 40px;
+}
+
+/* this effects the navigation bar as a whole*/
+.nav_bar {
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+
+    list-style-type: none;
+}
+
+/* affects the links individually*/
+a {
+    display: flex;
+    padding: 20px;
+    stroke-width: 2px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+
+    background-color: rgb(211, 203, 203);
+    text-decoration: none;
+    font-size: 20px;
+}
