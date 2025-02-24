@@ -1,10 +1,6 @@
 /* this affects the entire header (including nav bar, heading name, etc) */
 body {
   font-family: "Jost", sans-serif;
-  /* background-color: rgba(115, 193, 146, 0.50);
-  background-image: url(https://i.ibb.co/s9w8Cd42/stars-background.png);
-  background-repeat: repeat-x;
-  background-position: 50% 15%; */
   background-image: url(https://i.ibb.co/99RrN3D8/360-F-373260949-C49-GBDm-BKwzfg33ym1w-MHRYK7g2c-FAHI.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +58,7 @@ img.pfp {
   background-color: gray;
   border-radius: 100px;
   padding: 5px;
-  width: 150px;
+  width: 175px;
 }
 
 .about_me {
@@ -78,7 +74,7 @@ img.pfp {
   font-size: 20px;
 }
 
-.header_two {
+.subheading {
   display: flex;
   justify-content: center;
   border: 2px solid black;
@@ -89,6 +85,17 @@ img.pfp {
   border-radius: 400px;
   background-color: white;
   text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.full_about_me {
+  padding: 20px;
+  border: 2px solid black; 
+  border-radius: 25px;
+  background-color: white;
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
 }
 
 ul.project_titles {
@@ -160,3 +167,5 @@ ul.project_descriptions {
 #project_desc_three {
   margin-right: 100px;
 }
+
+
