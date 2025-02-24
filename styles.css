@@ -1,87 +1,162 @@
 /* this affects the entire header (including nav bar, heading name, etc) */
 body {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Jost", sans-serif;
+  /* background-color: rgba(115, 193, 146, 0.50);
+  background-image: url(https://i.ibb.co/s9w8Cd42/stars-background.png);
+  background-repeat: repeat-x;
+  background-position: 50% 15%; */
+  background-image: url(https://i.ibb.co/99RrN3D8/360-F-373260949-C49-GBDm-BKwzfg33ym1w-MHRYK7g2c-FAHI.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header_one {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* this affects the heading name */
 .heading_name {
-    display: flex;
-    padding: 20px;
-    justify-content: flex-start;
-    margin-right: 400px;
+  font-family: "Kanit", "Montserrat", sans-serif;
+  display: flex;
+  padding: 20px;
+  justify-content: flex-start;
+  margin-right: 400px;
+  text-decoration:underline;
 
-    font-size: 40px;
+  font-size: 50px;
 }
 
 /* this effects the navigation bar as a whole*/
 .nav_bar {
-    display: flex;
-    margin: 0;
-    justify-content: flex-end;
+  display: flex;
+  margin: 0;
+  justify-content: flex-end;
+  padding-top: 20px;
 
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* affects the links individually*/
 .nav_bar a {
-    display: flex;
-    padding: 20px;
-    stroke-width: 2px;
-    border: 2px solid black;
-    border-radius: 20px;
-    justify-content: space-evenly;
-    margin: 5px;
-    text-decoration: none;
-    font-size: 15px;
+  display: flex;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  justify-content: space-evenly;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  background-color: white;
 }
 
 section.second_layer {
-    display: flex;
-    padding-top: 10px;
-    margin-left: 100px;
-    align-items: center;
+  display: flex;
+  padding-top: 10px;
+  margin-left: 100px;
+  align-items: center;
 }
 
 img.pfp {
-    border: 2px solid black;
-    background-color: gray;
-    border-radius: 100px;
-    padding: 5px;
-    width: 150px;
+  border: 2px solid black;
+  background-color: gray;
+  border-radius: 100px;
+  padding: 5px;
+  width: 150px;
 }
 
 .about_me {
-    text-align: center;
-    height: 50px;
-    padding: 20px;
-    padding-bottom: 5px;
-    margin-left: 50px;
-    margin-right: 75px;
-    border: 2px solid black;
-    border-radius: 20px;
+  text-align: center;
+  height: 50px;
+  padding: 20px;
+  padding-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 75px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  font-size: 20px;
 }
 
 .header_two {
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    padding: 10px;
-    margin-left: 700px;
-    margin-right: 700px;
-    font-size: 25px;
-    border-radius: 400px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px;
+  margin-left: 700px;
+  margin-right: 700px;
+  font-size: 28px;
+  border-radius: 400px;
+  background-color: white;
+  text-decoration: underline;
 }
 
-.project_titles {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: 40px;
-    font-size: 26px;
+ul.project_titles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 45px;
+
+  list-style-type: none;
 }
 
+.project_titles li {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 22px;
+  background-color: white;
+  text-decoration: underline dotted;
+}
+
+#project_title_two {
+  margin-left: 120px;
+  margin-right: 140px;
+}
+
+#project_title_three {
+  margin-right: 100px;
+}
+
+.project_images {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project_images img {
+  height: 150px;
+  width: 335px;
+  padding: 15px;
+  border: 2px solid black;
+  background-color: rgb(219, 219, 219);
+  border-radius: 25px;
+}
+
+ul.project_descriptions {
+  display: flex;
+  justify-content: space-evenly;
+
+  list-style-type: none;
+}
+
+.project_descriptions li {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+#project_desc_one {
+  margin-left: 100px;
+}
+
+#project_desc_two {
+  margin-left: 175px;
+  margin-right: 120px;
+}
+
+#project_desc_three {
+  margin-right: 100px;
+}

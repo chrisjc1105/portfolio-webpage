@@ -1,57 +1,113 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
 
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Phudu:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Christopher Camacho's Portfolio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header_one">
-        <div class="heading_name">Christopher Camacho</div>
+      <div class="heading_name">Christopher Camacho</div>
 
-        <nav>
-            <ul class="nav_bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Link One</a></li>
-                <li><a href="#">Link Two</a></li>
-                <li><a href="#">Link Three</a></li>
-                <li><a href="#">Link Four</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="nav_bar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Link One</a></li>
+          <li><a href="#">Link Two</a></li>
+          <li><a href="#">Link Three</a></li>
+          <li><a href="#">Link Four</a></li>
+        </ul>
+      </nav>
     </header>
 
-
     <section class="second_layer">
-        <div class="pfp"><img class="pfp" src="https://i.ibb.co/8LPc9wnJ/image-2025-02-04-232936967.png"
-                alt="image-2025-02-04-232936967"></div>
+      <div class="pfp">
+        <img
+          class="pfp"
+          src="https://i.ibb.co/8LPc9wnJ/image-2025-02-04-232936967.png"
+          alt="image-2025-02-04-232936967"
+        />
+      </div>
 
-        <div class="about_me">Hey, I’m Christopher! I’m a future web developer looking for job opportunities in the NYC
-            Metropolitan area. Below are a few projects that I’ve worked on. Check out my <a
-                href="https://www.linkedin.com/in/christopher-camacho-7a0503284/">LinkedIn!</a></div>
+      <div class="about_me">
+        Hey, I’m Christopher! I’m a future web developer looking for job
+        opportunities in the NYC Metropolitan area. Below are a few projects
+        that I’ve worked on. Check out my
+        <a href="https://www.linkedin.com/in/christopher-camacho-7a0503284/"
+          >LinkedIn!</a
+        >
+      </div>
     </section>
 
     <header class="header_two">My Projects</header>
 
     <section class="projects_grid">
-        <div class="project_titles">
-            <div id="project_title_one">Company Website Idea</div>
-            <div id="project_title_two">Simple Transaction Calculator</div>
-            <div id="project_title_three">Personal Blog</div>
-        </div>
-        <div class="project_images"></div>
-        <div class="project_descriptions"></div>
-    </section>
-</body>
+      <div class="project_titles">
+        <ul class="project_titles">
+          <div id="project_title_one"><li>Company Website Idea</li></div>
+          <div id="project_title_two">
+            <li>Simple Transaction Calculator</li>
+          </div>
+          <div id="project_title_three"><li>Personal Blog</li></div>
+        </ul>
+      </div>
 
+      <div class="project_images">
+        <div id="project_image_one">
+          <img
+            id="project_image_one"
+            src="https://i.ibb.co/LzkX9Rdq/Screenshot-2025-02-21-172319.png"
+          />
+        </div>
+        <div id="project_image_two">
+          <img
+            id="project_image_two"
+            src="https://i.ibb.co/1tWztKjD/Screenshot-2025-02-21-173201.png"
+          />
+        </div>
+        <div id="project_image_three">
+          <img
+            src="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          />
+        </div>
+      </div>
+
+      <div class="project_descriptions">
+        <ul class="project_descriptions">
+          <div id="project_desc_one">
+            <li>
+              A website made in HTML and CSS to introduce myself as well as
+              propose a faux company idea.
+            </li>
+          </div>
+          <div id="project_desc_two">
+            <li>
+              A simple website where you can input the cost and amount of three
+              items, as well as the amount you will pay for said items (as well
+              as other minor inputs). With that, it calculates the amount of
+              money you may owe or be owed.
+            </li>
+          </div>
+          <div id="project_desc_three">
+            <li>
+              A personal blog made to introduce myself in an informal and casual
+              way and garner supporters through discussing my interests.
+            </li>
+          </div>
+        </ul>
+      </div>
+    </section>
+  </body>
 </html>
