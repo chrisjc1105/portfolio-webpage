@@ -18,16 +18,15 @@
   </head>
 
   <body>
-    <header class="header_one">
+    <header class="header_one" id="home">
       <div class="heading_name">Christopher Camacho</div>
 
       <nav>
         <ul class="nav_bar">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#full_about_me">About Me</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#header_two">About Me</a></li>
+          <li><a href="#projects_grid">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="#">Link Three</a></li>
-          <li><a href="#">Link Four</a></li>
         </ul>
       </nav>
     </header>
@@ -42,11 +41,10 @@
       </div>
 
       <div class="about_me">
-        Hey, I’m Christopher! I’m a future web developer looking for job
-        opportunities in the NYC Metropolitan area. Below is a comprehensive
+        Hey, I’m Christopher! I’m a 19 year old future web developer looking for
+        job opportunities in the NYC Metropolitan area. Below is a comprehensive
         about me, a collection of a few projects that I’ve worked on, and my
-        contact information. 
-        For quick contact, however, check out my
+        contact information. For quick contact, however, check out my
         <a
           href="https://www.linkedin.com/in/christopher-camacho-7a0503284/"
           target="_blank"
@@ -57,41 +55,55 @@
 
     <header class="subheading" id="header_two">More About Me</header>
 
-    <section class="full_about_me">
-      Welcome to my portfolio! My name is Christopher Camacho, and I use he/him
-      and they/them pronouns. I'm an upcoming software developer who's highly
-      invested in interactive media and design. I love to be able to help others
-      connect to a greater cause, and even be entertained by different types of
-      software. With the different skillsets that I have, I'm a very passionate
-      and hardworking force. I could even potentially be a crucial member of
-      nearly any team.
+    <section class="full_about_me" id="full_about_me">
+      <p class="first_paragraph">
+        Welcome to my portfolio! My name is Christopher Camacho, and I use
+        he/him and they/them pronouns. I'm an upcoming software developer who's
+        highly invested in interactive media and design. I love to be able to
+        help others connect to a greater cause, and even be entertained by
+        different types of software. With the different skillsets that I have,
+        I'm a very passionate and hardworking force. I could even potentially be
+        a crucial member of nearly any team.
+      </p>
       <br />
-      <br />
-      When it comes to the skills I already have, I'm moderately experienced
-      with both HTML and CSS. However, I also have some experience working with
-      Figma as well: I can be of assistance with both webpage creation, as well
-      as styling and designing. I also have experience working within the
-      clerical field as an office aide within the education office of a nursing
-      home. However, most, if not all, of the knowledge I gained when it comes
-      to computer science and technology has resulted from two sources: the
-      first being from working within the KKCF (Karim Kharbouc Coding
-      Fellowship) with The Knowledge House, and the second being from the
-      results of my own experience and journey on self-learning. I've always
-      been one to teach myself new things: especially when it comes to things
-      that I'm extremely passionate about.
+      <p class="second_paragraph">
+        When it comes to the skills I already have:
+        <li>I'm moderately experienced with both HTML and CSS.</li>
+        <li>
+          I have some experience working with Figma: I can be of assistance with
+          both webpage creation, as well as styling and designing.
+        </li>
+        <li>
+          I have experience working within the clerical field as an office aide
+          within the education office of a nursing home.
+        </li>
+        However, most, if not all, of the knowledge I gained when it comes to
+        computer science and technology has resulted from two sources: the first
+        being from working within the KKCF (Karim Kharbouc Coding Fellowship)
+        with The Knowledge House, and the second being from the results of my
+        own experience and journey on self-learning. I've always been one to
+        teach myself new things: especially when it comes to things that I'm
+        extremely passionate about.
+      </p>
       <br />
       I hope that I'll be able to share my ideas and work with you in the
       future!
       <br /><br />
       If you'd like to know more, here's my
       <a href="https://christopher-camacho-resume.tiiny.site/" target="_blank"
-        >resume</a
-      >.
+        >resume.</a
+      >
+      Below is a preview of the resume that also links to it. 
+      <br />
+      <br />
+      <br />
+      <a href="https://christopher-camacho-resume.tiiny.site/" target="_blank"><img src="https://i.ibb.co/HDS8kt19/Screenshot-2025-02-25-195620.png" />
+        <a href="https://christopher-camacho-resume.tiiny.site/" target="_blank"><img src="https://i.ibb.co/4G2NTz8/Screenshot-2025-02-25-210806.png" /></a>
     </section>
 
     <header class="subheading" id="header_three">My Projects</header>
 
-    <section class="projects_grid">
+    <section class="projects_grid" id="projects_grid">
       <div class="project_titles">
         <ul class="project_titles">
           <div id="project_title_one"><li>Company Website Idea</li></div>
@@ -150,8 +162,32 @@
 
     <header class="subheading" id="heading_four">Contact</header>
 
-    <section class="contact">
-      <div></div>
+    <section class="contact" id="contact">
+      <!-- <ul class="contact">
+        <div class="email"><li>Email: <a href="mailto:chriscamachwork@gmail.com" target="_blank">chriscamachwork@gmail.com</a></li></div>
+        <div class="linkedin"><li><a href="https://www.linkedin.com/in/christopher-camacho-7a0503284/">LinkedIn</a></li></div>
+        <div class="phone_number"><li>Mobile Phone: 1-646-322-6173</li></div>
+    </ul> -->
+
+      <form class="contact_form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+          </li>
+          <li>
+            <label for="msg">Message</label>
+            <input type="text" id="msg" name="msg" />
+          </li>
+          <li>
+            <input type="submit" value="Submit" />
+          </li>
+        </ul>
+      </form>
     </section>
   </body>
 </html>

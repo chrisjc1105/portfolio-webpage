@@ -11,19 +11,17 @@ body {
   justify-content: center;
 }
 
-/* this affects the heading name */
 .heading_name {
   font-family: "Kanit", "Montserrat", sans-serif;
   display: flex;
   padding: 20px;
   justify-content: flex-start;
   margin-right: 400px;
-  text-decoration:underline;
+  text-decoration: underline;
 
   font-size: 50px;
 }
 
-/* this effects the navigation bar as a whole*/
 .nav_bar {
   display: flex;
   margin: 0;
@@ -33,7 +31,6 @@ body {
   list-style-type: none;
 }
 
-/* affects the links individually*/
 .nav_bar a {
   display: flex;
   padding: 20px;
@@ -55,7 +52,7 @@ section.second_layer {
 
 img.pfp {
   border: 2px solid black;
-  background-color: gray;
+  background-color: rgb(219, 219, 219);
   border-radius: 100px;
   padding: 5px;
   width: 175px;
@@ -63,9 +60,7 @@ img.pfp {
 
 .about_me {
   text-align: center;
-  height: 50px;
   padding: 20px;
-  padding-bottom: 25px;
   margin-left: 50px;
   margin-right: 75px;
   border: 2px solid black;
@@ -85,23 +80,37 @@ img.pfp {
   border-radius: 400px;
   background-color: white;
   text-decoration: underline;
-  margin-bottom: 20px;
 }
 
 .full_about_me {
   padding: 20px;
-  border: 2px solid black; 
+  border: 2px solid black;
   border-radius: 25px;
   background-color: white;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   font-size: 18px;
   text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.full_about_me img {
+  height: 600px;
+  width: 450px;
+}
+
+#header_two {
+  margin-bottom: 20px;
+}
+
+.projects_grid {
+  margin-bottom: 50px;
 }
 
 ul.project_titles {
   display: flex;
   justify-content: space-around;
-  margin-top: 45px;
+  margin-top: 30px;
 
   list-style-type: none;
 }
@@ -168,4 +177,40 @@ ul.project_descriptions {
   margin-right: 100px;
 }
 
+/* ul.contact {
+  display: flex; 
+  justify-content: space-around;
+  margin-top: 20px;
 
+  list-style-type: none;
+}
+
+.contact li {
+  border: 2px solid black; 
+  background-color: white;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.email {
+  margin-right: 70px;
+}
+
+.linkedin {
+  margin-right: 135px;
+} */
+
+.contact_form ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.contact_form li {
+  margin: 30px;
+}
+
+.contact_form input {
+  border-radius: 25px;
+  padding: 10px;
+}
